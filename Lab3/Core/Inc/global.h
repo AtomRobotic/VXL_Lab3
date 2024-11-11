@@ -18,4 +18,18 @@
 
 #define TIMER_CYCLE	10
 
+#define YELLOW_TIME		1
+#define GREEN_TIME		2
+#define RED_TIME		3
+
+extern int redTime;
+extern int yellowTime;
+extern int greenTime;
+extern int ledModeData;
+extern int ledValueData;
+
+void initValues();
+
+extern int state;
+
 #endif /* INC_GLOBAL_H_ */

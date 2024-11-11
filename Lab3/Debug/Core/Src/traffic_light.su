@@ -1,0 +1,10 @@
+../Core/Src/traffic_light.c:11:6:AllLedOff	8	static
+../Core/Src/traffic_light.c:21:6:OnRed_1	8	static
+../Core/Src/traffic_light.c:27:6:OnYellow_1	8	static
+../Core/Src/traffic_light.c:33:6:OnGreen_1	8	static
+../Core/Src/traffic_light.c:39:6:OnRed_2	8	static
+../Core/Src/traffic_light.c:45:6:OnYellow_2	8	static
+../Core/Src/traffic_light.c:51:6:OnGreen_2	8	static
+../Core/Src/traffic_light.c:57:6:BlinkingRedLed	8	static
+../Core/Src/traffic_light.c:62:6:BlinkingYellowLed	8	static
+../Core/Src/traffic_light.c:67:6:BlinkingGreenLed	8	static

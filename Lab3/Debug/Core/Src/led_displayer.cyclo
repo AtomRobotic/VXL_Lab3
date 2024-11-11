@@ -1,0 +1,6 @@
+../Core/Src/led_displayer.c:10:6:display_SEG_A	11
+../Core/Src/led_displayer.c:83:6:display_SEG_B	11
+../Core/Src/led_displayer.c:156:6:display_SEG_C	11
+../Core/Src/led_displayer.c:229:6:display_SEG_D	11
+../Core/Src/led_displayer.c:302:6:update7SEG_AB	1
+../Core/Src/led_displayer.c:307:6:update7SEG_CD	1
