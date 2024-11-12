@@ -12,9 +12,10 @@
 
 void fsm_automatic_run(){
 	if(timer2_counter == 0){
+		update7SEG_AB(ledModeData);
+		update7SEG_CD(ledValueData);
 		timer2_flag = 1;
 	}
-
 	switch (state){
 	case init:
 		setTimer1(greenTime * 1000);
@@ -64,10 +65,10 @@ void fsm_automatic_run(){
 		break;
 	}
 	if(timer2_flag == 1){
+		setTimer2(1000);
 		update7SEG_AB(ledModeData);
 		update7SEG_CD(ledValueData);
 		ledModeData--;
 		ledValueData--;
-		setTimer2(1000);
 	}
 }

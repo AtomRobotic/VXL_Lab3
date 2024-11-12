@@ -18,9 +18,9 @@
 
 #define TIMER_CYCLE	10
 
-#define YELLOW_TIME		1
-#define GREEN_TIME		2
-#define RED_TIME		3
+#define YELLOW_TIME		4
+#define GREEN_TIME		10
+#define RED_TIME		14
 
 extern int redTime;
 extern int yellowTime;
