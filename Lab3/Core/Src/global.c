@@ -9,6 +9,7 @@
 #include "global.h"
 
 int state = init;
+int mode = MODE1;
 
 int yellowTime;
 int greenTime;

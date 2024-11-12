@@ -16,20 +16,28 @@
 #include "fsm_manual.h"
 #include "led_displayer.h"
 
-#define TIMER_CYCLE	10
+//software_timer
+#define TIMER_CYCLE		10
 
-#define YELLOW_TIME		4
-#define GREEN_TIME		10
-#define RED_TIME		14
+#define YELLOW_TIME		2
+#define GREEN_TIME		3
+#define RED_TIME		5
 
+//fsm
 extern int redTime;
 extern int yellowTime;
 extern int greenTime;
 extern int ledModeData;
 extern int ledValueData;
+	//fsm_automatic
+extern int state;
+	//fsm_manual
+extern int mode;
+#define MODE1			1
+#define MODE2 			2
+#define MODE3	 		3
+#define MODE4			4
 
 void initValues();
-
-extern int state;
 
 #endif /* INC_GLOBAL_H_ */

@@ -101,13 +101,17 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  setTimer1(10);
+  setTimer2(10);
+  setTimer3(10);
+  clearAllButtons();
   initValues();
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  fsm_automatic_run();
+	  fsm_manual_run();
 
   }
   /* USER CODE END 3 */
@@ -251,6 +255,7 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	timerRun();
+	getKeyInput();
 }
 /* USER CODE END 4 */
 
