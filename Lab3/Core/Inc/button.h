@@ -16,7 +16,7 @@
 #define NORMAL_STATE 				SET
 #define PRESSED_STATE 				RESET
 #define NUM_OF_BUTTONS				3
-#define TIME_OUT_FOR_KEY_PRESS		200
+#define TIME_OUT_FOR_KEY_PRESS		100
 
 extern int button_flag[NUM_OF_BUTTONS];
 

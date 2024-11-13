@@ -90,6 +90,8 @@ void fsm_manual_run(){
 		if(isButtonPressed(BUTTON_1_PRESS) == 1){
 			state = init;
 			setTimer3(500);
+			setTimer1(10);
+			setTimer2(10);
 			mode = MODE1;
 		}
 		if(isButtonPressed(BUTTON_2_PRESS) == 1){

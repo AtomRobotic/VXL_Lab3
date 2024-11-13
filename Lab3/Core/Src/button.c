@@ -62,7 +62,7 @@ void getKeyInput(void) {
 				//when pressed, do subKeyProcess()
 				if (buttonBuffer[i] == PRESSED_STATE) {
 					TimeOutForKeyPress[i] = TIME_OUT_FOR_KEY_PRESS;
-					subKeyProcess(i);
+					button_flag[i] = 1;
 				}
 			}
 
